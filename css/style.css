@@ -10,6 +10,9 @@ body {
   font-size: 14px;
 }
 
+.dibu {
+  float: none;
+}
 /* line 9, ../../01 cl html template/New folder/May 2019/177 Logistics/Logistic Template/sass/_common.scss */
 .message_submit_form:focus {
   outline: none;
@@ -190,7 +193,7 @@ a:hover {
 
 /* line 99, ../../01 cl html template/New folder/May 2019/177 Logistics/Logistic Template/sass/_common.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #161d22;
+  color: #989696;
   font-family: "Roboto", sans-serif;
 }
 
@@ -5500,7 +5503,7 @@ h6 {
 
 /* line 2, ../../01 cl html template/New folder/May 2019/177 Logistics/Logistic Template/sass/_footer.scss */
 .footer-area {
-  background-image: url("../img/footer_bg.png");
+  background-color: #000;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6040,7 +6043,7 @@ h6 {
 
 /* line 1, ../../01 cl html template/New folder/May 2019/177 Logistics/Logistic Template/sass/_breadcrumb.scss */
 .breadcrumb_bg {
-  background-image: url("../img/breadcrumb.png");
+  background-image: url("../img/ivbiiumages.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6124,6 +6127,15 @@ h6 {
     font-size: 40px;
   }
 }
+
+.dibu {
+  float: none;
+  background-position: right;
+  padding-top: 2px;
+  background-image: url(img/AAA.jpg);
+background-image: contain;
+}
+
 
 /* line 57, ../../01 cl html template/New folder/May 2019/177 Logistics/Logistic Template/sass/_breadcrumb.scss */
 .breadcrumb .breadcrumb_iner .breadcrumb_iner_item p {
