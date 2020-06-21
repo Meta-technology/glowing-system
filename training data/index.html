@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Barniabs Technolgical Solutions To Modern Problem</title>
+    
     <meta name="description"
         content="We are a solution driven company whose main aim is to technolgical solutions to modern problem">
     <link rel="icon" href="img/favicon.png">
@@ -51,6 +52,30 @@
     <meta name="msapplication-square150x150logo" content="../mstile-150x150.png" />
     <meta name="msapplication-wide310x150logo" content="../mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="../mstile-310x310.png" />
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js" type="text/javascript"></script>
+    
+    <style type="text/css">
+        @import url("http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css");
+    
+        #feedControl {
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 440px;
+            font-size: 12px;
+            color: #9CADD0;
+        }
+    </style>
+    <script type="text/javascript">
+        function load() {
+            var feed = "http://feeds.bbci.co.uk/news/world/rss.xml";
+            new GFdynamicFeedControl(feed, "feedControl");
+
+        }
+        google.load("feeds", "1");
+        google.setOnLoadCallback(load);
+    </script>
 
 </head>
     
@@ -147,7 +172,7 @@
                                     <li class="nav-item">
                                         <div class="nav-item button-group-area mt-40">
 
-                                    <a href="#" class="nav-link genric-btn primary circle" id="dibu">Jobs</a></div>
+                                    <a href="../img/jobs.html" class="nav-link genric-btn primary circle" id="dibu">Jobs</a></div>
                                     </li>
                                 </ul>
                             </div>
@@ -202,12 +227,11 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="deliveries_tittle">
-                    <h2>Happy Clients</h2>
+                    <h2>NEWS</h2>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="deliveries_slider owl-carousel owl-loaded owl-drag">
-
 
 
 
@@ -218,12 +242,7 @@
                                 <div class="single_deliveries">
                                     <div class="single_deliveries_text">
                                         <div class="single_deliveries_text_iner">
-                                            <img src="img/client/client_2.png" alt="">
-                                            <p>Give dry stars form. Us called an won't winged had land cru abundantly
-                                                land Midst
-                                            </p>
-                                            <h5>Danyel Yarde</h5>
-                                            <span>CEO &amp; Founder</span>
+                                      
                                         </div>
                                     </div>
                                 </div>
@@ -233,8 +252,7 @@
                                     <div class="single_deliveries_text">
                                         <div class="single_deliveries_text_iner">
                                             <img src="img/client/client_3.png" alt="">
-                                            <p>Give dry stars form. Us called an won't winged had land cru abundantly
-                                                land Midst
+                                            <p>Launching AI in the Real World
                                             </p>
                                             <h5>Danyel Yarde</h5>
                                             <span>CEO &amp; Founder</span>
