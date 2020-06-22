@@ -2320,7 +2320,7 @@ display: none;
   font-size: 14px;
   padding: 8px 20px !important;
   color: #fff !important;
-  background-color: #6345fe;
+  background-color: rgb(25, 43, 124);
   text-transform: capitalize;
 }
 
@@ -4229,7 +4229,7 @@ h6 {
 
 /* line 185, ../../01 cl html template/New folder/May 2019/177 Logistics/Logistic Template/sass/_elements.scss */
 .genric-btn.circle {
-  border-radius: 20px;
+  border-radius: 80px;
 }
 
 /* line 188, ../../01 cl html template/New folder/May 2019/177 Logistics/Logistic Template/sass/_elements.scss */
@@ -6041,13 +6041,13 @@ h6 {
   color: #6345fe !important;
 }
 
-/* line 1, ../../01 cl html template/New folder/May 2019/177 Logistics/Logistic Template/sass/_breadcrumb.scss */
+/* line 1, ../../01 cl html template/New folder/May 2019/177 Logistics/Logistic Template/sass/_breadcrumb.scss
 .breadcrumb_bg {
   background-image: url("../img/ivbiiumages.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 /* line 5, ../../01 cl html template/New folder/May 2019/177 Logistics/Logistic Template/sass/_breadcrumb.scss */
 .breadcrumb {
