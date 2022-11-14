@@ -2379,7 +2379,7 @@ display: none;
   }
   /* line 212, ../../01 cl html template/New folder/May 2019/177 Logistics/Logistic Template/sass/_menu.scss */
   .navbar-brand img {
-    max-width: 130px;
+    max-width: 600px;
     margin: 0 auto;
     position: absolute;
     left: 0;
